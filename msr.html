@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <title>IP</title>
 </head>
-<body><form action="gestion.cgi" method="get">
-    <label for="IP">adresse ip :</label>
-    <input type="text" id="IP" name="IP" required >
-    <label for="masque">Masque :</label>
-    <input type="text" id="masque" name="masque" required>
-    <button type="submit">valider</button>
-</form>
+<body>
+    <form action="verifiy.cgi" method="get" >
+        <h1>Info IP Address</h1>
+        <label for="IP">Adresse IP : </label>
+        <input type="text" id="IP" name="IP" required >
+        <label for="MSR">Masque : </label>
+        <input type="text" id="MSR" name="MSR" required >
+        <button type="submit">Valider</button>
+    </form> 
+    
 </body>
 </html>
